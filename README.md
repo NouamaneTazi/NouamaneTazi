@@ -28,7 +28,7 @@ const nouamane = {
         databases: ["mongo", "SAP HANA", "MySql"],
         misc: ["Kafka", "Scrapy", "Socket.IO", "open-cv"]
     },
-    architecture: ["Microservice architecture", "Serverless Architecture", "Progressive web applications", "Single page applications"],
+    architecture: ["Microservice architecture", "Serverless Architecture", "Single page applications"],
     currentFocus: "Developing Deep Learning skills"
 };
 ```
