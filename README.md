@@ -26,7 +26,7 @@ const nouamane = {
         },
         devOps: ["Azure", "AWS", "Docker🐳", "Nginx"],
         databases: ["mongo", "SAP HANA", "MySql"],
-        misc: ["Kafka", "Scrapy", "Socket.IO", "open-cv"]
+        misc: ["Kafka", "RabbitMQ", "ElasticSearch", "Scrapy", "Socket.IO", "open-cv"]
     },
     architecture: ["Microservice architecture", "Serverless Architecture", "Single page applications"],
     currentFocus: "Developing Deep Learning skills"
