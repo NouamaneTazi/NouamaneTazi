@@ -13,7 +13,7 @@
 ```javascript
 const nouamane = {
     pronouns: "He" | "Him",
-    code: ["Python", "Javascript", "Typescript"],
+    languages: ["Python", "Go", "Javascript", "Typescript"],
     technologies: {
         mlFrameworks: ["Tensorflow", "Pytorch", "Keras", "FastAI"],
         frontEnd: {
@@ -37,7 +37,7 @@ const nouamane = {
 ## &#x1f4c8; GitHub Stats
 
 <!-- ![Nouamane's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=willianrod&theme=tokyonight) -->
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=NouamaneTazi&langs_count=8&hide=html,jupyter%20notebook,css&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=NouamaneTazi&langs_count=8&hide=html,jupyter%20notebook,css,scss&theme=tokyonight)
 ![Nouamane's github stats](https://github-readme-stats.vercel.app/api?username=NouamaneTazi&show_icons=true&theme=tokyonight)
 
 
