@@ -13,7 +13,7 @@
 ```javascript
 const nouamane = {
     pronouns: "He" | "Him",
-    languages: ["Python", "Go", "Javascript", "Typescript"],
+    languages: ["Python", "C++", Go", "Typescript"],
     technologies: {
         mlFrameworks: ["Tensorflow", "Pytorch", "Keras", "FastAI"],
         frontEnd: {
