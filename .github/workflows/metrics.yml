@@ -16,7 +16,7 @@ jobs:
 
       - name: 🦑 Personal metrics
         if: ${{ success() || failure() }}
-        uses: NouamaneTazi/metrics@latest
+        uses: lowlighter/metrics@latest
         with:
           filename: metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -40,7 +40,7 @@ jobs:
 
       - name: 🦑 Personal achievements
         if: ${{ success() || failure() }}
-        uses: NouamaneTazi/metrics@latest
+        uses: lowlighter/metrics@latest
         with:
           filename: metrics.personal.achievements.svg
           token: ${{ secrets.METRICS_TOKEN }}
