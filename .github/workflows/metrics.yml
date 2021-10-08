@@ -1,13 +1,51 @@
+# This worflow is scheduled for every hour, and also run after each commit (GitHub action excluded) on master/main branch
+
 name: Metrics
 on:
-  # Schedule updates (each hour)
-  schedule: [{cron: "0 * * * *"}]
+  schedule:
+    - cron: "0 16 * * *"
+  push:
+    branches:
+      - master
+      - main
   workflow_dispatch:
-  push: {branches: ["master", "main"]}
 jobs:
-  github-metrics:
+  github-metrics-personal:
     runs-on: ubuntu-latest
     steps:
-      - uses: lowlighter/metrics@latest
+
+      - name: 🦑 Personal metrics
+        if: ${{ success() || failure() }}
+        uses: NouamaneTazi/metrics@latest
         with:
+          filename: metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          base: header
+          plugin_isocalendar: yes
+          plugin_languages: yes
+          plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot, vue, scala, c, c++, python, ejs
+          plugin_languages_skipped: lowlighter
+          plugin_languages_details: lines, percentage
+          plugin_languages_sections: most-used, recently-used
+          plugin_languages_indepth: yes
+          plugin_languages_limit: 2
+          plugin_topics: yes
+          plugin_topics_limit: 0
+          plugin_topics_mode: mastered
+          plugin_notable: yes
+          plugin_notable_repositories: yes
+          plugin_discussions: yes
+          config_order: base.header, isocalendar, languages, notable, discussions, topics
+          output_action: pull-request
+
+      - name: 🦑 Personal achievements
+        if: ${{ success() || failure() }}
+        uses: NouamaneTazi/metrics@latest
+        with:
+          filename: metrics.personal.achievements.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          config_display: large
+          output_action: pull-request-squash
