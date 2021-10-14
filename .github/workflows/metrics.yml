@@ -23,12 +23,12 @@ jobs:
           base: header
           plugin_isocalendar: yes
           plugin_languages: yes
-          plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot, vue, scala, c, c++, python, ejs
+          plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, gnuplot, vue, scala, ejs
           plugin_languages_skipped: lowlighter
           plugin_languages_details: lines, percentage
           plugin_languages_sections: most-used, recently-used
           plugin_languages_indepth: yes
-          plugin_languages_limit: 2
+          plugin_languages_limit: 4
           plugin_topics: yes
           plugin_topics_limit: 0
           plugin_topics_mode: mastered
@@ -37,7 +37,20 @@ jobs:
           plugin_discussions: yes
           config_order: base.header, isocalendar, languages, notable, discussions, topics
           output_action: pull-request
-
+          
+      - name: 🦑 Mastered topics
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.topics.mastered.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_topics: yes
+          plugin_topics_limit: 0
+          plugin_topics_mode: mastered
+          config_display: large
+          output_action: pull-request-squash
+          
       - name: 🦑 Personal achievements
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
