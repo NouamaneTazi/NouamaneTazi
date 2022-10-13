@@ -43,7 +43,7 @@
                                     <rect class="day" x="150" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
                                     <rect class="day" x="165" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="180" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                                 </g>
                             </svg>
                         </div>
@@ -1175,14 +1175,14 @@
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 6.80kb of code in 4 edited files across 31 commits over last 14 days</small>
+                <small>estimation from 6.78kb of code in 4 edited files across 33 commits over last 14 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="250.00294811320754" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="250.00294811320754" y="0" width="209.99705188679246" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="249.56868537666173" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="249.56868537666173" y="0" width="210.43131462333827" height="8" fill="#89e051"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -1194,8 +1194,8 @@
                                 Python
                             </div>
                             <small>
-                                <div>128 lines</div>
-                                <div>54.35%</div>
+                                <div>139 lines</div>
+                                <div>54.25%</div>
                             </small>
                         </div>
                     </section>
@@ -1209,7 +1209,7 @@
                             </div>
                             <small>
                                 <div>131 lines</div>
-                                <div>45.65%</div>
+                                <div>45.75%</div>
                             </small>
                         </div>
                     </section>
