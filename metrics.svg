@@ -43,7 +43,7 @@
                                     <rect class="day" x="150" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
                                     <rect class="day" x="165" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="180" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
                                 </g>
                             </svg>
                         </div>
@@ -1160,14 +1160,14 @@
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 66.4kb of code in 23 edited files across 24 commits over last 13 days</small>
+                <small>estimation from 794kb of code in 51 edited files across 25 commits over last 13 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="434.559913247786" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="434.559913247786" y="0" width="25.44008675221399" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="434.573452971224" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="434.573452971224" y="0" width="25.42654702877601" height="8" fill="#3572A5"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -1179,7 +1179,7 @@
                                 Shell
                             </div>
                             <small>
-                                <div>2.64k lines</div>
+                                <div>2.65k lines</div>
                                 <div>94.47%</div>
                             </small>
                         </div>
@@ -1193,7 +1193,7 @@
                                 Python
                             </div>
                             <small>
-                                <div>139 lines</div>
+                                <div>137 lines</div>
                                 <div>5.53%</div>
                             </small>
                         </div>
