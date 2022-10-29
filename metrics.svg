@@ -1173,9 +1173,9 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="455.9445583236411" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="455.9445583236411" y="0" width="3.9904127281957034" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="459.93497105183684" y="0" width="0.06502894816318924" height="8" fill="#555555"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="455.9502313255177" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="455.9502313255177" y="0" width="3.9848306928215296" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="459.9350620183392" y="0" width="0.0649379816607953" height="8" fill="#555555"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
