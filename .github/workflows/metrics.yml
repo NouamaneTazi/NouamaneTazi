@@ -29,11 +29,19 @@ jobs:
           plugin_languages_sections: most-used, recently-used
           plugin_languages_indepth: yes
           plugin_languages_limit: 4
-          plugin_notable: yes
-          plugin_notable_repositories: yes
+
           plugin_discussions: yes
           config_order: base.header, isocalendar, languages, notable, discussions, topics
           output_action: pull-request
+          
+      - name: Contributions
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.notable.svg
+          token: ${{ secrets.METRICS_TOKEN_NO_REPO }}
+          base: ""
+          plugin_notable: yes
+          plugin_notable_repositories: yes
           
       - name: 🦑 Mastered topics
         if: ${{ success() || failure() }}
