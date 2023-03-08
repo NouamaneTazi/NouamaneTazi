@@ -11,9 +11,6 @@
 
 <br />
 
-## I am Nouamane Tazi
-
-- Final year student, pursuing a Master's Degree in Machine Learning at CentraleSupélec - Paris Saclay University
 - Loves a freshly brewed cup of coffee
 
 <img align="left" width="400" alt="🦑" src="https://github.com/NouamaneTazi/NouamaneTazi/blob/main/metrics.svg">
