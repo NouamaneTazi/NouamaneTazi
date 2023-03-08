@@ -32,16 +32,7 @@ jobs:
 
           plugin_discussions: yes
           config_order: base.header, isocalendar, languages, notable, discussions, topics
-          output_action: pull-request
-          
-      - name: Contributions
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.notable.svg
-          token: ${{ secrets.METRICS_TOKEN_NO_REPO }}
-          base: ""
-          plugin_notable: yes
-          plugin_notable_repositories: yes
+          output_action: pull-request 
           
       - name: 🦑 Mastered topics
         if: ${{ success() || failure() }}
