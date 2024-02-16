@@ -101,7 +101,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path d="M10.896 2H8.75V.75a.75.75 0 00-1.5 0V2H5.104a.25.25 0 00-.177.427l2.896 2.896a.25.25 0 00.354 0l2.896-2.896A.25.25 0 0010.896 2zM8.75 15.25a.75.75 0 01-1.5 0V14H5.104a.25.25 0 01-.177-.427l2.896-2.896a.25.25 0 01.354 0l2.896 2.896a.25.25 0 01-.177.427H8.75v1.25zm-6.5-6.5a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM6 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 016 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM12 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 0112 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5z"/>
                             </svg>
-                            Average per day at ~1.80
+                            Average per day at ~1.82
                         </div>
                     </section>
                 </div>
@@ -1062,10 +1062,10 @@
                                 <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,8 0,7 z"/>
                                 <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,7 1.7,8 z"/>
                             </g>
-                            <g transform="translate(-5.1, 6.84)">
+                            <g transform="translate(-5.1, 6.12)">
                                 <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4.16 0,3.16 z"/>
-                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3.16 1.7,4.16 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4.88 0,3.88 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3.88 1.7,4.88 z"/>
                             </g>
                             <g transform="translate(-6.8, 9.52)">
                                 <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
@@ -1086,15 +1086,15 @@
             </section>
             <section class="column">
                 <h3 class="field">Most used languages</h3>
-                <small>estimation from 1.37mb of code in 628 edited files across 126 commits</small>
+                <small>estimation from 1.37mb of code in 635 edited files across 129 commits</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="268.1049709815796" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="268.1049709815796" y="0" width="175.6825637143578" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="443.78753469593744" y="0" width="16.21246530406258" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="270.1328122879861" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="270.1328122879861" y="0" width="173.82604683980568" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="443.9588591277918" y="0" width="16.0411408722082" height="8" fill="#f34b7d"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -1106,8 +1106,8 @@
                                 Python
                             </div>
                             <small>
-                                <div>2.41k lines</div>
-                                <div>58.28%</div>
+                                <div>2.46k lines</div>
+                                <div>58.72%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -1119,7 +1119,7 @@
                             </div>
                             <small>
                                 <div>272 lines</div>
-                                <div>3.52%</div>
+                                <div>3.49%</div>
                             </small>
                         </div>
                     </section>
@@ -1133,7 +1133,7 @@
                             </div>
                             <small>
                                 <div>7 lines</div>
-                                <div>38.19%</div>
+                                <div>37.79%</div>
                             </small>
                         </div>
                     </section>
