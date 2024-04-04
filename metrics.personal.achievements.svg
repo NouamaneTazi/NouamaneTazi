@@ -25,7 +25,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="458.2523333333333 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="458.3143333333333 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g transform="translate(4 4)" fill="none" fill-rule="evenodd">
@@ -48,12 +48,12 @@
                                 <div class="title">
                                     <span class="prefix">Master</span>
                                     maintainer
-                                    <span class="gh">ranked 198 out of 63m repositories</span>
+                                    <span class="gh">ranked 198 out of 57.1m repositories</span>
                                     <div class="value-wrapper">
-                                        <div class="value">54347</div>
+                                        <div class="value">54353</div>
                                     </div>
                                 </div>
-                                <div class="text">Maintaining a repository with 54347 stars</div>
+                                <div class="text">Maintaining a repository with 54353 stars</div>
                             </div>
                         </div>
                         <div class="achievement s largeable-width-half">
@@ -334,7 +334,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="42.36666666666667 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="42.88333333333333 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g transform="translate(4 4)" stroke-width="2" fill="none" fill-rule="evenodd">
@@ -371,12 +371,12 @@
                                 <div class="title">
                                     <span class="prefix">Great</span>
                                     influencer
-                                    <span class="gh">ranked 30.7k out of 134m users</span>
+                                    <span class="gh">ranked 30.5k out of 134m users</span>
                                     <div class="value-wrapper">
-                                        <div class="value">282</div>
+                                        <div class="value">283</div>
                                     </div>
                                 </div>
-                                <div class="text">Followed by 282 users</div>
+                                <div class="text">Followed by 283 users</div>
                             </div>
                         </div>
                         <div class="achievement b largeable-width-half">
@@ -464,7 +464,7 @@
                                 <div class="title">
                                     <span class="prefix">Great</span>
                                     inspirer
-                                    <span class="gh">ranked 126k out of 63m repositories</span>
+                                    <span class="gh">ranked 126k out of 57.1m repositories</span>
                                     <div class="value-wrapper">
                                         <div class="value">100</div>
                                     </div>
