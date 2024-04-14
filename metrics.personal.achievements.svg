@@ -25,7 +25,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="467.0253333333333 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="467.09766666666667 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g transform="translate(4 4)" fill="none" fill-rule="evenodd">
@@ -48,12 +48,12 @@
                                 <div class="title">
                                     <span class="prefix">Master</span>
                                     maintainer
-                                    <span class="gh">ranked 194 out of 201m repositories</span>
+                                    <span class="gh">ranked 194 out of 202m repositories</span>
                                     <div class="value-wrapper">
-                                        <div class="value">55196</div>
+                                        <div class="value">55203</div>
                                     </div>
                                 </div>
-                                <div class="text">Maintaining a repository with 55196 stars</div>
+                                <div class="text">Maintaining a repository with 55203 stars</div>
                             </div>
                         </div>
                         <div class="achievement s largeable-width-half">
@@ -204,7 +204,7 @@
                                 <div class="title">
                                     <span class="prefix">Super</span>
                                     developer
-                                    <span class="gh">ranked 245k out of 134m users</span>
+                                    <span class="gh">ranked 245k out of 133m users</span>
                                     <div class="value-wrapper">
                                         <div class="value">86</div>
                                     </div>
@@ -371,7 +371,7 @@
                                 <div class="title">
                                     <span class="prefix">Great</span>
                                     influencer
-                                    <span class="gh">ranked 30.4k out of 134m users</span>
+                                    <span class="gh">ranked 30.4k out of 133m users</span>
                                     <div class="value-wrapper">
                                         <div class="value">285</div>
                                     </div>
@@ -464,7 +464,7 @@
                                 <div class="title">
                                     <span class="prefix">Great</span>
                                     inspirer
-                                    <span class="gh">ranked 126k out of 201m repositories</span>
+                                    <span class="gh">ranked 126k out of 202m repositories</span>
                                     <div class="value-wrapper">
                                         <div class="value">100</div>
                                     </div>
